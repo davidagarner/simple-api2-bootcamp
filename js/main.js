@@ -2,7 +2,7 @@
 
 const btn = document.getElementById('button');
 const images = document.getElementById('dogPic')
-const section = document.querySelector('.smaller')
+const section = document.querySelector('.showPic')
 // let count = 0
 
 
@@ -13,8 +13,8 @@ function getRandomDog() {
     // let apiKey = "T0jznlsubW13V7xCOLsFgaXlMTwg8HId"
     // fetch(`https://api.giphy.com/v1/gifs/search?q=${text}&api_key=${apiKey}&limit=1`)
     // .then(res => res.json()) 
-    // .then(giffy => {
-    //   document.querySelector("img").src = giffy.data[0].images.original.url
+    // .then(giphy => {
+    //   document.querySelector("img").src = giphy.data[0].images.original.url
     // })    
     // count++
 
